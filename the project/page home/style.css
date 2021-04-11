@@ -1,0 +1,393 @@
+body
+{
+    height: 4000px;
+}
+/*  start part hedder */
+.container
+{
+    width: 1140px;
+    margin: auto;
+}
+.clarefix {clear: both;}
+.hedder .slider
+{
+    background-color:#ECEAEA ;
+    height:600px ;
+    background-image: url('./1_5TRuG7tG0KrZJXKoFtHlSg.jpeg');
+    background-size: cover;
+}
+.hedder .slider .intro 
+{
+    height: 600px;
+    padding-top: 200px;
+    text-align: center;
+    color: #FFFf;
+}
+.hedder .slider .intro .a1
+{
+    color: #d2e603
+}
+.hedder .slider .intro .a3
+{
+    color: #d2e603
+}
+.hedder .slider .intro h2
+{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top:3px solid #fff;
+    border-bottom:3px solid #fff;
+    padding: 5px 0;
+    
+}
+.hedder .slider .intro button
+{
+    background: none;
+    width: 140px;
+    margin-top: 5px;
+    color: #d2e603;
+    border-color: #fff;
+}
+.hedder .slider .intro button:hover
+{
+    background: #ff4b5c;
+    color:#000 ;
+
+}
+
+.hedder .novabar
+{
+    background-color: #1D1E21;
+    color:#fff;
+    overflow: hidden;
+    text-transform: capitalize;
+
+}
+.hedder .novabar h2
+{
+    float:left;
+}
+.hedder .novabar h2 span
+{
+    color: #d2e603;
+    font-size: small;
+}
+.hedder .novabar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.hedder .novabar ul li
+{
+    float: left;
+    padding: 10px;
+}
+.hedder .novabar ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hedder .novabar .home
+{
+    color:#E93F00;
+}
+.hedder .novabar ul li a:hover
+{
+    color: #d2e603;
+}
+/*  end part hedder */
+
+/* start part novabar */
+.Features
+{
+    overflow: hidden;
+    padding-top: 40px ;
+    padding-bottom: 50px ;
+}
+.Features .Action
+{
+    float: left;
+    width: 33.33333333333333%;
+    height: 150px;
+}
+.Features .Action h2
+{
+    text-transform: inherit;
+    color:#7d0633 ;
+}
+.Features .Action p ,.paragraph-education ,.paragraph-Experiences ,.paragraph-testimonial
+{
+    line-height:25px ;
+    font-size: 17px;
+    color: #056674;
+    padding: 15px;
+  }
+/* end part novabar */
+
+/* start part about-me */
+.containertwo
+{
+    width: 350px;
+}
+.about-me 
+{
+    background-color: #F2F2F2;
+    overflow: hidden;
+    text-align: left;
+    
+}
+.about-me .img 
+{
+    float: left;
+   margin-top: 1%;
+   height: 250px;
+}
+.about-me .info
+{
+    float: right;
+    width: 70%;
+    margin-top: 6%;
+}
+.about-me .info h1 ,.My-skills
+{
+     color: #FF4B5C;
+     
+     
+}
+.about-me .info p
+{
+     color: #056674;
+}
+
+.about-me .info h5
+{
+     color: #7d0633;
+}
+
+
+.about-me .info .hopes
+{
+    float: right;
+    margin:8px;
+}
+.about-me .info .hopes .memo ,.some-Experiences
+{
+    font-size:25px ;
+    color:#7d0633 
+}
+.about-me .info .hopes i
+{
+    font-size:25px ;
+    color:#31112c ;
+}
+
+.about-me .info .hopes p ,.paragraph-Experiences
+{
+    font-size: 18px;
+}
+.about-me .info .hopes > div
+{
+    float: left;
+    width: 50%;
+}
+/* end part about-me */
+
+/* start part my-Skills */
+
+.my-Skills
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.skills , .progress
+{
+    width: 50%;
+    float: left;
+}
+.skills p
+{
+    color: #056674;
+    font-size: 17px;
+    margin: 15px;
+}
+.skills button , .button-resume
+{
+    background: none;
+    width: 140px;
+    margin-top: 5px;
+    color: #000000;
+    border-color: #4EFB02;
+    margin: 15px;
+}
+.skills button:hover , .button-resume:hover  
+{
+    background: #FF0C00;
+    width: 140px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    margin: 15px;
+}
+.my-Skills .progress .techlacarte {margin-left: 110px;}
+
+.my-Skills .progress .techlacarte h3
+{
+    color:#7d0633 ;
+}
+.my-Skills .progress .techlacarte div
+{
+    background-color: #f2f2f2;
+    height:25px;
+}
+.my-Skills .progress .techlacarte div span
+{
+    background-color: #16C15E;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    color: #fff;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* end  part my-Skills */
+
+/* start part  resume  */
+.resume ,.testimonial
+{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #056674;
+}
+.resume .atch2 ,.Myeducation ,.work-Experiences ,.testimonial-h2
+{
+    color: #FF4B5C;
+
+}
+/* end part  resume  */
+
+/* start part my-education */
+
+.my-education 
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+}
+
+
+.my-education .main
+{
+    width: 55%;
+    float: left;
+}
+    
+.my-education .Experiences
+{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+  
+
+}
+.learn
+{
+    background-color: #16C15E;
+    color:#F2F2F2
+}
+
+/* end  part my-education */
+
+/* start part  testimonial  */
+.testimonial
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* end part  testimonial  */
+
+/* Start portfolio */
+.portfolio 
+{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+
+}
+/* end* portfolio */
+ 
+/* start portfolio my work */
+ .portfolio .my-work
+ {
+     overflow: hidden;
+     text-align: center;
+ }
+ .portfolio .my-work > div
+ {
+     float: left;
+     width: 25%;
+     margin-bottom: 10px; 
+ }
+ .portfolio .my-work > div img
+ {
+     width:92%;
+     margin: 10px;
+     border-radius: 20%;
+ }
+
+/* end portfolio my work */
+
+/* start conntact me */
+.Connect 
+{
+    background-color: #252f31;
+    overflow: hidden;
+}
+
+.Connect h2 {color: #FFFFFF;}
+.Connect p {color: #F2FF00;}
+
+.Connect .info ,
+.Connect .form
+{
+    width: 50%;
+    float: left;
+}
+/* end Connect me */
+.Features , about-me , .my-Skills , .resume , .my-education , .testimonial , .portfolio h1 h2
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #B21441;
+
+}
+/* start footar */
+.footar
+{
+background-color: #191e22;
+color: #6a6e71 ;
+padding: 20PX 0;
+text-align: center;
+}
+.Connect .form 
+{
+    float: left;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footar a
+{
+    color: #fff;
+}
+
+/* end footar */
